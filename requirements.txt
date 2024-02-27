@@ -2,3 +2,4 @@ Flask
 Gunicorn
 Py_Thanglish
 pandas
+flask_cors 
