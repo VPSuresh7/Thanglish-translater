@@ -14,6 +14,3 @@ def translate():
     input = data["text"]
     output = py.tamil_to_thanglish(input)
     return jsonify({"response":output}),200 
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000,debug=True)
